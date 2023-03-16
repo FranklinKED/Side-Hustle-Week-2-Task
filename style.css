@@ -1,0 +1,72 @@
+
+body{
+
+    background-color: #fff;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    animation: contain 7s infinite ease-in-out;
+
+} 
+
+.container {
+    
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+        border-radius: 15px;
+        padding: 20px;
+        background: white;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        width: 30%;
+      }
+    
+      @keyframes contain {
+        from {background: rgb(208, 195, 202);}
+        to {background: rgb(95, 135, 165);}
+      }
+
+ 
+    h1{
+       color: blue;
+    }
+
+input{
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 5px;
+    border: 1ps solid rgb(52, 52, 52);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus {
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        outline: none;
+    }
+
+.btn{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 5px;
+    background-color:blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: rgb(4, 4, 127);
+  
+}
+       
+
+@media (max-width: 767px) {
+  
+    input{
+        width: 80%;
+    }
+   
+  }
+  
